@@ -9,13 +9,13 @@ function Navbar() {
                 <div className="container flex justify-between text-lg mx-8">
                                         <Link 
                         to='/home' 
-                        className='rounded-lg px-4 py-2 hover:bg-cyan-400 transform hover:scale-110 transition-transform duration-300 font-semibold text-xl'
+                        className='rounded-lg px-4 py-2 hover:bg-cyan-400 transform hover:scale-110 transition-transform duration-300 font-bold text-xl'
                     >
                         Quartzo Sollutions RH
                     </Link>
 
                     <div className='flex gap-4'>
-                         <Link to ='/sobrenos' className=' rounded-lg px-4 py-2 hover:bg-cyan-400'>Sobre Nós</Link>
+                         <Link to ='/sobrenos' className=' rounded-lg px-4 py-2 hover:bg-cyan-400 font-bold'>Sobre Nós</Link>
                     </div>
                 </div>
             </div>

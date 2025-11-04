@@ -1,4 +1,4 @@
-import {  GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react"
+import {  GithubLogoIcon } from "@phosphor-icons/react"
 
 
 function Footer() {
@@ -12,11 +12,12 @@ function Footer() {
                     <p className='text-xl font-bold'>
                             Quartzo Sollutions RH | Desenvolvido pelo Grupo 5 © {data}
                         </p>
-                    <p className='text-lg'>Acesse nossas redes sociais</p>
-                    <div className='flex gap-2'>
-                        <LinkedinLogoIcon size={48} weight='bold' />
-                        <GithubLogoIcon size={48} weight='bold' />
-                    </div>
+                    <p className='text-lg'>Contato: grupo05.turmajavascript.09@gmail.com
+</p>
+                        <a href = "https://github.com/Grupo-05-Turma-JavaScript-09/" target="_blank"
+                        className="hover:text-cyan-400 transition-colors duration-300">
+                        <GithubLogoIcon size={40} weight='bold' />
+                        </a>
                 </div>
             </div>
         </>
