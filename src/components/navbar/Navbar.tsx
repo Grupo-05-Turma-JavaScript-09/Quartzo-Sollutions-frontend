@@ -3,24 +3,24 @@ import { Link } from "react-router-dom"
 function Navbar() {
     return (
         <>
-            <div className='w-full flex justify-center py-4
-            			   bg-blue-900 text-white'>
+                <div className="w-full flex justify-center py-4 bg-blue-900 text-white">
+                <div className="container flex justify-between items-center text-lg mx-8">
             
-                <div className="container flex justify-between text-lg mx-8">
-                                        <Link 
-                        to='/home' 
-                        className='rounded-lg px-4 py-2 hover:bg-cyan-400 transform hover:scale-110 transition-transform duration-300 font-bold text-xl'
-                    >
-                        Quartzo Sollutions RH
-                    </Link>
-
-                    <div className='flex gap-4'>
-                         <Link to ='/sobrenos' className=' rounded-lg px-4 py-2 hover:bg-cyan-400 font-bold'>Sobre Nós</Link>
+                <Link to='/home' 
+                className='rounded-lg px-4 py-2 hover:bg-cyan-400 transform hover:scale-105 transition-transform duration-300 font-bold text-xl'>
+                <img 
+                 src='https://i.imgur.com/flxqOoP.png'
+                    alt="Logo Quartzo Sollutions RH" 
+                className="h-12 w-auto object-contain" 
+                    />
+            </Link>
+                                <div className='flex gap-4'>
+                            <Link to ='/sobrenos' className=' rounded-lg px-4 py-2 hover:bg-cyan-400 font-bold'>Sobre Nós</Link>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </>
-    )
-}
+            </>
+        )
+    }
 
-export default Navbar
+    export default Navbar
