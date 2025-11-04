@@ -3,6 +3,10 @@ import Home from "./pages/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import SobreNos from "./pages/sobrenos/SobreNos";
 import Footer from "./components/footer/Footer";
+import CardProduto from "./components/cardproduto/CardProduto";
+
+
+
 
 function App() {
 
@@ -11,6 +15,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar/>
+        <CardProduto />
         <div className="min-h-[80vh]">
           <Routes>
           <Route path="/"  element={<Home />}/>
