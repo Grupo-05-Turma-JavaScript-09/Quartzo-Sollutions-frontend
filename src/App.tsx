@@ -14,7 +14,8 @@ function App() {
         <div className="min-h-[80vh]">
           <Routes>
           <Route path="/"  element={<Home />}/>
-          <Route path="/sobre"  element={<SobreNos />}/>
+       // No App.tsx - MUDE para:
+       <Route path="/sobrenos" element={<SobreNos />} />
         </Routes>
         </div>
         <Footer />
