@@ -34,13 +34,13 @@ const SobreNos: React.FC = () => {
             </p>
           </div>
           
-          {/* Placeholder para imagem */}
-          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
-            <div className="aspect-video bg-gradient-to-br from-blue-50 to-cyan-100 rounded-lg flex items-center justify-center">
-              <span className="text-gray-500 font-medium">
-                Imagem Institucional
-              </span>
-            </div>
+          {/* Imagem Institucional */}
+          <div className="bg-white p-4 rounded-lg shadow-lg border border-gray-200">
+            <img 
+              src="https://i.imgur.com/3hIqIbw.jpeg" 
+              alt="Equipe Quartzo Solutions" 
+              className="w-full h-auto rounded-lg object-cover"
+            />
           </div>
         </div>
 
