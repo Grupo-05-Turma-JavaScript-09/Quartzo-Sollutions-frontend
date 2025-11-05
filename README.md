@@ -1,8 +1,8 @@
 ## 💎 Quartzo Sollutions - Frontend
-Um projeto frontend moderno desenvolvido com React, TypeScript e Vite, apresentando uma landing page institucional para a Quartzo Solutions.
+Um projeto frontend moderno desenvolvido com React, TypeScript e Vite, apresentando uma landing page institucional para a Quartzo Sollutions.
 
 ## 📋 Sobre o Projeto
-Este é o frontend da Quartzo Solutions, uma aplicação web responsiva que apresenta os serviços e valores da empresa. O projeto foi desenvolvido com tecnologias modernas e boas práticas de desenvolvimento, oferecendo uma experiência de usuário fluida e profissional.
+Este é o frontend da Quartzo Sollutions, uma aplicação web responsiva que apresenta os serviços e valores da empresa. O projeto foi desenvolvido com tecnologias modernas e boas práticas de desenvolvimento, oferecendo uma experiência de usuário fluida e profissional.
 
 ## 🚀 Tecnologias Utilizadas
 React - Biblioteca para construção da interface
@@ -55,20 +55,31 @@ Passos para instalação
 Clone o repositório
 
 bash
+````
 git clone https://github.com/Grupo-05-Turma-JavaScript-09/Quartzo-Sollutions-frontend.git
 cd Quartzo-Sollutions-frontend
+````
 Instale as dependências
 
 bash
+````
 npm install
- ou
+````
+ou
+````
 yarn install
+````
+
 Execute o projeto em desenvolvimento
 
 bash
+````
 npm run dev
- ou
+````
+ou
+````
 yarn dev
+````
 Acesse a aplicação
 Abra http://localhost:5173 no navegador
 
@@ -135,7 +146,7 @@ Gostaríamos de expressar nossa gratidão aos instrutores que nos guiaram durant
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 ### 🤝 Contribuições
-Contribuições são sempre bem-vindas! Por favor, leia o guia de contribuição antes de submeter pull requests.
+Contribuições são sempre bem-vindas!
 
 ---
 ### 💎 Quartzo Sollutions - Transformando ideias em soluções digitais.
