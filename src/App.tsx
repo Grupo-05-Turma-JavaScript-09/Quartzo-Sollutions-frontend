@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import SobreNos from "./pages/sobrenos/SobreNos";
+import Servicos from "./components/servicos/Servicos";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/"  element={<Home />}/>
           <Route path="/home"  element={<Home />}/>
           <Route path="/sobrenos" element={<SobreNos />} />
+          <Route path="/servicos/:nomeServico" element={<Servicos />} />
         </Routes>
         </div>
         <div className="h-5 w-full bg-linear-to-b from-gray-50 to-blue-900" />
