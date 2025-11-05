@@ -1,0 +1,123 @@
+{
+  "servicos": [
+    {
+      "nome": "Recrutamento & Seleção",
+      "pacotes": [
+        {
+          "nome": "Pacote Lazuli",
+          "preco": "R$ 499/mês",
+          "descricao": [
+            "3 anúncios mensais em portais parceiros",
+            "Triagem e filtro de currículos automatizado",
+            "Entrevistas online com agendamento automático",
+            "Suporte por chat comercial"
+          ]
+        },
+        {
+          "nome": "Pacote Diamante",
+          "preco": "R$ 899/mês",
+          "descricao": [
+            "10 anúncios mensais + divulgação no LinkedIn",
+            "Análise de perfil comportamental (fit cultural)",
+            "Relatório de desempenho dos candidatos",
+            "Assistência 24h para urgências de contratação"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Treinamento & Desenvolvimento",
+      "pacotes": [
+        {
+          "nome": "Pacote Lazuli",
+          "preco": "R$ 399/mês",
+          "descricao": [
+            "Acesso a 3 trilhas de capacitação online",
+            "Certificados de conclusão",
+            "Relatórios mensais de progresso"
+          ]
+        },
+        {
+          "nome": "Pacote Diamante",
+          "preco": "R$ 699/mês",
+          "descricao": [
+            "Treinamentos personalizados para a equipe",
+            "Workshops ao vivo mensais",
+            "Avaliação de desempenho antes e depois do curso",
+            "Consultoria de plano de desenvolvimento individual (PDI)"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Gestão de Desempenho",
+      "pacotes": [
+        {
+          "nome": "Pacote Aquamar",
+          "preco": "R$ 450/mês",
+          "descricao": [
+            "Avaliação 180º (colaborador + gestor)",
+            "Relatório com indicadores de performance",
+            "Feedback estruturado"
+          ]
+        },
+        {
+          "nome": "Pacote Diamante",
+          "preco": "R$ 850/mês",
+          "descricao": [
+            "Avaliação 360º",
+            "Painel de resultados em tempo real",
+            "Reuniões de alinhamento trimestral",
+            "Consultoria personalizada de engajamento"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Pesquisa de Clima",
+      "pacotes": [
+        {
+          "nome": "Pacote Aquamar",
+          "preco": "R$ 350/mês",
+          "descricao": [
+            "Questionário digital pronto para aplicação",
+            "Relatório com índices de satisfação"
+          ]
+        },
+        {
+          "nome": "Pacote Diamante",
+          "preco": "R$ 750/mês",
+          "descricao": [
+            "Questionário personalizado à cultura da empresa",
+            "Entrevistas qualitativas",
+            "Relatório detalhado + plano de ação sugerido",
+            "Reaplicação semestral para acompanhamento"
+          ]
+        }
+      ]
+    },
+    {
+      "nome": "Cargos e Salários",
+      "pacotes": [
+        {
+          "nome": "Pacote Lazuli",
+          "preco": "R$ 599/mês",
+          "descricao": [
+            "Estruturação de até 10 cargos",
+            "Análise de mercado e faixas salariais"
+          ]
+        },
+        {
+          "nome": "Pacote Diamante",
+          "preco": "R$ 999/mês",
+          "descricao": [
+            "Estrutura completa de cargos + trilha de carreira",
+            "Plano de reconhecimento e crescimento interno",
+            "Simulação de reajuste e impacto orçamentário",
+            "Consultoria mensal para ajustes"
+          ]
+        }
+      ]
+    }
+  ]
+}
