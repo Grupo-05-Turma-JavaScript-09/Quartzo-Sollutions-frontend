@@ -1,73 +1,139 @@
-# React + TypeScript + Vite
+## 💎 Quartzo Solutions - Frontend
+Um projeto frontend moderno desenvolvido com React, TypeScript e Vite, apresentando uma landing page institucional para a Quartzo Solutions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Sobre o Projeto
+Este é o frontend da Quartzo Solutions, uma aplicação web responsiva que apresenta os serviços e valores da empresa. O projeto foi desenvolvido com tecnologias modernas e boas práticas de desenvolvimento, oferecendo uma experiência de usuário fluida e profissional.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
+React - Biblioteca para construção da interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TypeScript - Superset JavaScript com tipagem estática
 
-## React Compiler
+Vite - Build tool e dev server de alta performance
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+Tailwind CSS - Framework CSS utilitário
 
-## Expanding the ESLint configuration
+React Router DOM - Roteamento para aplicação SPA
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+React Icons - Biblioteca de ícones
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Lucide React - Ícones adicionais
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📦 Estrutura do Projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+````
+quartzo-solutions-frontend/
+├── public/                 # Arquivos públicos
+├── src/
+│   ├── components/         # Componentes reutilizáveis
+│   │   ├── cardproduto/   # Componente de card de produto
+│   │   ├── footer/        # Componente de rodapé
+│   │   ├── navbar/        # Componente de navegação
+│   │   └── selos/         # Componente de selos/certificações
+│   ├── pages/             # Páginas da aplicação
+│   │   ├── home/          # Página inicial
+│   │   └── sobrenos/      # Página sobre nós
+│   ├── App.tsx            # Componente principal
+│   ├── index.css          # Estilos globais
+│   └── main.tsx           # Ponto de entrada da aplicação
+├── package.json           # Dependências e scripts
+├── vite.config.ts         # Configuração do Vite
+├── tsconfig.json          # Configuração do TypeScript
+└── README.md              # Documentação do projeto
+````
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Instalação e Configuração
+Pré-requisitos
+Node.js (versão 16 ou superior)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+npm ou yarn
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Passos para instalação
+Clone o repositório
+
+bash
+git clone https://github.com/Grupo-05-Turma-JavaScript-09/Quartzo-Sollutions-frontend.git
+cd Quartzo-Sollutions-frontend
+Instale as dependências
+
+bash
+npm install
+ ou
+yarn install
+Execute o projeto em desenvolvimento
+
+bash
+npm run dev
+ ou
+yarn dev
+Acesse a aplicação
+Abra http://localhost:5173 no navegador
+
+## 📜 Scripts Disponíveis
+npm run dev - Inicia o servidor de desenvolvimento
+
+npm run build - Gera build de produção
+
+npm run lint - Executa análise ESLint
+
+npm run preview - Preview do build de produção
+
+## 🎨 Funcionalidades
+
+✅ Design responsivo
+
+✅ Navegação suave entre seções
+
+✅ Interface moderna e clean
+
+✅ Otimizada para SEO
+
+✅ Carregamento rápido com Vite
+
+✅ Tipagem TypeScript
+
+## 🌐 Deploy
+
+Netlify
+bash
+npm run build
+
+## 👥 Equipe de Desenvolvimento
+
+💙 Grupo 05 - Turma JavaScript 09
+
+👨🏽‍💻 Desenvolvedores:
+
+🤖 Ayron - Desenvolvedor Full Stack
+
+🔒 Shefany - Desenvolvedora Full Stack
+
+🚀 Eric - Desenvolvedor Full Stack
+
+🦢 Paula - Desenvolvedora Full Stack
+
+🧸 Emily - Desenvolvedora Full Stack
+
+🛸 Flávio - Desenvolvedor Full Stack
+
+## 🎓 Bootcamp Generation Brasil
+Este projeto foi desenvolvido como parte do Bootcamp da Generation Brasil, um programa intensivo de formação em desenvolvimento full-stack que prepara jovens para ingressar no mercado de tecnologia.
+
+### 💖 Agradecimentos Especiais
+Gostaríamos de expressar nossa gratidão aos instrutores que nos guiaram durante esta jornada:
+
+🍟 Thiago - Pela paciência, dedicação e conhecimento compartilhado
+
+🍃 Indio - Pelo suporte e orientação fundamentais
+
+💙 Agradecemos também a toda equipe da Generation Brasil pela oportunidade e por acreditar no nosso potencial.
+
+### 📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+### 🤝 Contribuições
+Contribuições são sempre bem-vindas! Por favor, leia o guia de contribuição antes de submeter pull requests.
+
+---
+### 💎 Quartzo Solutions - Transformando ideias em soluções digitais.
+
