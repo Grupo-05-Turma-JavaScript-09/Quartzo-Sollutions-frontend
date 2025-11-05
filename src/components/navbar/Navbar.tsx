@@ -15,6 +15,7 @@ function Navbar() {
                     />
             </Link>
                                 <div className='flex gap-4'>
+                            <Link to ='/home' className=' rounded-lg px-4 py-2 hover:bg-cyan-400 font-bold'>Home</Link>
                             <Link to ='/sobrenos' className=' rounded-lg px-4 py-2 hover:bg-cyan-400 font-bold'>Sobre Nós</Link>
                         </div>
                     </div>
