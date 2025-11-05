@@ -8,7 +8,7 @@ function Home() {
 
       <section className="relative w-full py-20 md:py-0 md:h-[550px] overflow-hidden">
         <img
-          src="https://i.imgur.com/rd9J70I.jpeg"
+          src="https://i.imgur.com/webQTdL.png"
           alt="Conectando talentos e soluções humanas"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -25,8 +25,8 @@ function Home() {
           {/* Coluna 1: Texto e Botão */}
           <div className="md:w-1/2 lg:w-3/5 flex flex-col items-center md:items-start">
             <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight max-w-2xl drop-shadow-lg text-center md:text-left">
-              Insira uma frase bonitinha aqui
-              <span className="text-cyan-400"> plissss</span>
+              Soluções humanas para um mundo
+              <span className="text-cyan-400"> tecnológico.</span>
             </h1>
 
             <Link
@@ -40,7 +40,7 @@ function Home() {
           {/* Coluna 2: MUDEM ESSA IMAGEM AQUI*/}
           <div className="md:w-1/2 lg:w-2/7 mt-10 md:mt-0 md:ml-8">
             <img
-              src="https://www.dbccompany.com.br/app/uploads/2025/09/Ativo-1-1.png"
+              src="https://i.imgur.com/i2oRE2k.png"
               alt="Imagem da Página Home"
               className="w-full rounded-lg"
             />
