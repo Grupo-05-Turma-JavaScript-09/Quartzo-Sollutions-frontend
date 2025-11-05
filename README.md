@@ -1,4 +1,4 @@
-## 💎 Quartzo Solutions - Frontend
+## 💎 Quartzo Sollutions - Frontend
 Um projeto frontend moderno desenvolvido com React, TypeScript e Vite, apresentando uma landing page institucional para a Quartzo Solutions.
 
 ## 📋 Sobre o Projeto
@@ -29,7 +29,10 @@ quartzo-solutions-frontend/
 │   │   ├── cardproduto/   # Componente de card de produto
 │   │   ├── footer/        # Componente de rodapé
 │   │   ├── navbar/        # Componente de navegação
-│   │   └── selos/         # Componente de selos/certificações
+│   │   ├── selos/         # Componente de selos/certificações
+│   │   └── services/      # Componentes de serviços
+│   ├── data/              # Dados e mocks da aplicação
+│   ├── models/            # Interfaces e tipos TypeScript
 │   ├── pages/             # Páginas da aplicação
 │   │   ├── home/          # Página inicial
 │   │   └── sobrenos/      # Página sobre nós
@@ -135,5 +138,5 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 Contribuições são sempre bem-vindas! Por favor, leia o guia de contribuição antes de submeter pull requests.
 
 ---
-### 💎 Quartzo Solutions - Transformando ideias em soluções digitais.
+### 💎 Quartzo Sollutions - Transformando ideias em soluções digitais.
 
