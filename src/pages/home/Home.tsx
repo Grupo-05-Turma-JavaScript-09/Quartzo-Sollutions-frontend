@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import Selos from "../../components/selos/Selos";
+import CardProduto from "../../components/cardproduto/CardProduto";
 
 function Home() {
   return (
@@ -114,6 +116,8 @@ function Home() {
           </div>
         </div>
       </section>
+               <CardProduto />
+         <Selos />
     </div>
   );
 }
